@@ -1,7 +1,9 @@
 const fs = require('fs');
 
-// Get the filename
+// Get the filename, change the path delimiter if you are on windows (to \\).
+// const filename = __filename.split('\\').pop(); // Example if on windows
 const filename = __filename.split('/').pop();
+
 const multiLineAscii = `
 Lets
 Make

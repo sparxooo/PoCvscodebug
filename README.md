@@ -10,6 +10,8 @@ Further more, even single digit line numbers, with a trailing period, do not app
 
 Run `node src/main.js`
 
+You will need to change the folder delimiter if on windows.
+
 Try ctrl-clicking on the generated output, close the main.js tab between clicking to prove opening of the file.
 
 ## What happens?
