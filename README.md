@@ -12,6 +12,8 @@ Run `node src/main.js`
 
 Try ctrl-clicking on the generated output, close the main.js tab between clicking to prove opening of the file.
 
+## What happens?
+
 ```
 main.js:9
 main.js:10
