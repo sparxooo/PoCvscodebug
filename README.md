@@ -6,6 +6,11 @@ Line numbers that are more than a single digit, that also have a trailing period
 
 Further more, even single digit line numbers, with a trailing period, do not appear to be parsed correctly, and although the correct file will open, the caret will not be on the correct line (will revert to the line you were on prior to closing the file).
 
+## How to use?
+
+Run `node src/main.js`
+
+Try ctrl-clicking on the generated output, close the main.js tab between clicking to prove opening of the file.
 
 ```
 main.js:9
