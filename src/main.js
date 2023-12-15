@@ -14,5 +14,9 @@ Code
 
 // Output the messages
 for (let i = 1; i < 19; i+=1) {
-console.log(`There was an error! Check out the code here: ${filename}:${i}.`);
+    console.log(`There was an error! Check out the code here: ${filename}:${i}.`);
+}
+    // Output the messages sans period
+for (let i = 1; i < 19; i+=1) {
+    console.log(`There was an error! Check out the code here: ${filename}:${i}`);
 }
